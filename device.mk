@@ -19,7 +19,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-mokee
 
 # AID/fs configs
 PRODUCT_PACKAGES += \
@@ -43,7 +43,7 @@ PRODUCT_PACKAGES += \
 
 # Camera Motor
 PRODUCT_PACKAGES += \
-    vendor.lineage.camera.motor@1.0-service.xiaomi_raphael
+    vendor.mokee.camera.motor@1.0-service.xiaomi_raphael
 
 # Common init scripts
 PRODUCT_PACKAGES += \
@@ -56,7 +56,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_raphael
+    mokee.biometrics.fingerprint.inscreen@1.0-service.xiaomi_raphael
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -88,7 +88,7 @@ PRODUCT_PACKAGES += \
 
 # Livedisplay
 PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service-sdm
+    mokee.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -138,7 +138,7 @@ PRODUCT_PACKAGES += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    lineage.trust@1.0-service
+    mokee.trust@1.0-service
 
 # VNDK-SP
 PRODUCT_PACKAGES += \

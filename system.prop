@@ -302,3 +302,5 @@ persist.data.profile_update=true
 #system prop for dc backlight
 persist.displayfeature.dc_backlight.enable=false
 persist.fod.modified.dc_status=false
+
+ro.mk.maintainer=IsaacChen
