@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#ifndef VENDOR_LINEAGE_CAMERA_MOTOR_V1_0_FINGERPRINTINSCREEN_H
-#define VENDOR_LINEAGE_CAMERA_MOTOR_V1_0_FINGERPRINTINSCREEN_H
+#ifndef VENDOR_MOKEE_CAMERA_MOTOR_V1_0_FINGERPRINTINSCREEN_H
+#define VENDOR_MOKEE_CAMERA_MOTOR_V1_0_FINGERPRINTINSCREEN_H
 
 #include <vendor/mokee/camera/motor/1.0/ICameraMotor.h>
 
@@ -49,4 +49,4 @@ class CameraMotor : public ICameraMotor {
 }  // namespace mokee
 }  // namespace vendor
 
-#endif  // VENDOR_LINEAGE_CAMERA_MOTOR_V1_0_FINGERPRINTINSCREEN_H
+#endif  // VENDOR_MOKEE_CAMERA_MOTOR_V1_0_FINGERPRINTINSCREEN_H
