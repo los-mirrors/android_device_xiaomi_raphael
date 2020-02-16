@@ -26,7 +26,7 @@
 #define MOTOR_DEV_PATH "/dev/drv8846_dev"
 
 namespace vendor {
-namespace mokee {
+namespace lineage {
 namespace camera {
 namespace motor {
 namespace V1_0 {
@@ -60,5 +60,5 @@ Return<void> CameraMotor::onDisconnect(const hidl_string& cameraId) {
 }  // namespace V1_0
 }  // namespace motor
 }  // namespace camera
-}  // namespace mokee
+}  // namespace lineage
 }  // namespace vendor
